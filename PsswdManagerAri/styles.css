@@ -1,0 +1,234 @@
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+/* ------------------------------- */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #392132;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(121, 121, 121, 0.416);
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f1cdeb;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #6c5b72;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #84678e;
+}
+.password-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.password-list li {
+    background: #f9f9f9;
+    border: 1px solid #dddddd00;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-list .actions {
+    display: flex;
+    gap: 10px;
+}
+
+.password-list i {
+    cursor: pointer;
+    font-size: 16px;
+    color: #84678e;
+}
+
+.password-list i:hover {
+    color: #84678e;
+}
+
+/* Style for password visibility toggle */
+.show-password {
+    cursor: pointer;
+    color: #84678e;
+    margin-left: 10px;
+}
+
+.show-password:hover {
+    color: #84678e;
+}
+
+/* Styles for custom popup */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: #c98dd3;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+}
+
+.popup-buttons {
+    margin-top: 20px;
+}
+
+.popup-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#popup-ok {
+    background-color: #c98dd3;
+    color: #c98dd3;
+}
+
+#popup-ok:hover {
+    background-color: #e3b0ec;
+}
+
+#popup-cancel {
+    background-color: #ac3c48;
+    color: #c98dd3;
+}
+
+#popup-cancel:hover {
+    background-color: #bd434f;
+}
+
+.hidden {
+    display: none;
+}
+/* Styles for custom popup */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: white;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.popup-buttons {
+    margin-top: 20px;
+}
+
+.popup-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#popup-ok {
+    background-color: #c98dd3;
+    color: rgba(255, 255, 255, 0.617);
+}
+
+#popup-ok:hover {
+    background-color: #dca0e6;
+}
+
+#popup-cancel {
+    background-color: #933942;
+    color: rgba(255, 255, 255, 0.617);
+}
+
+#popup-cancel:hover {
+    background-color: #d35864;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Additional style for input in popup */
+#popup-input-container {
+    margin: 20px 0;
+}
+
+#popup-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    background-color: #e6d7e2;
+    border-radius: 25px;
+}
+
